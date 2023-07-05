@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
 	<OutputType>Exe</OutputType>
@@ -11,7 +11,7 @@
 
   <ItemGroup>
 	<PackageReference Include="google.protobuf" Version="3.12.3" />
-	<PackageReference Include="grpc.net.client" Version="2.29.0" />
+	<PackageReference Include="grpc.net.client" Version="2.52.0" />
 	<PackageReference Include="Grpc.Tools" Version="2.29.0">
 	  <PrivateAssets>all</PrivateAssets>
 	  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
